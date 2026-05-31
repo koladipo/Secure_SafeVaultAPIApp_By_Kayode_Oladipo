@@ -1,0 +1,24 @@
+POST  http://localhost:5095/api/auth/login
+Content-Type: application/json
+
+{
+  "fullName": "Tom John",
+  "email": "tom@example.com",
+  "password": "Password@67889"
+}
+###
+GET  http://localhost:5095/api/admin/dashboard
+Authorization: Bearer 
+
+###
+POST http://localhost:5095/api/auth/login
+Content-Type: application/json
+
+{
+  "fullName": "Frank Sam",
+  "email": "sam@example.com",
+  "password": "Password@77789"
+}
+###
+GET  http://localhost:5095/api/admin/reports
+Content-Type: application/json
